@@ -17,10 +17,9 @@
 오늘 사용한 주요 명령어는 다음과 같다.
 
 ```powershell
-python -m pip install pyinstaller
-python -m pip install pygame
-python -m py_compile .\Space_Fighter.py
-python -m PyInstaller --clean -y .\Space_Fighter.spec
+pip install pyinstaller
+pyinstaller Space_Fighter.py
+pyinstaller --version
 ```
 
 빌드 후 실행 확인은 아래와 같이 진행하였다.
